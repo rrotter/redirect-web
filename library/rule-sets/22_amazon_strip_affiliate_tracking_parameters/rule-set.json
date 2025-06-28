@@ -16,7 +16,9 @@
         "https://www.amazon.com.be/dp/1974752542?tag=redirectwebtest-22#immersive-view_1739779534435",
         "https://www.amazon.com.be/dp/1974752542#immersive-view_1739779534435"
       ],
-      "excludeURLPatterns": [],
+      "excludeURLPatterns": [
+        "https://(www\\.)?amazon\\.(com|(com?\\.)?[a-z][a-z])/dp/[^/?#]+\\?th=1(&psc=1)?(#.*)?",
+      ],
       "kind": "Redirect",
       "sourceURLPattern": {
         "type": "regularExpression",
